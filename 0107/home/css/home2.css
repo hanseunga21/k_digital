@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: 1256px;
+  height: 510px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.wbox {
+  width: 269px;
+  height: 269px;
+  float: left;
+  margin-right: 10px;
+}
+
+.wbox .wbox_img {
+  width: 269px;
+  height: 269px;
+}
+h2 {
+  margin-bottom: 30px;
+}
+.wbox_img1 {
+  background-image: url(../image/a1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  border-radius: 10px 10px 10px 10px;
+
+  /* 배경 사이즈 100 -> 110 0.3초 동안 바뀜 */
+  transition: all 0.3s;
+}
+.wbox_img1:hover {
+  background-size: 110% 110%;
+}
+.wbox_img2 {
+  background-image: url(../image/a2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  border-radius: 10px 10px 10px 10px;
+  /* 배경 사이즈 100 -> 110 0.3초 동안 바뀜 */
+  transition: all 0.3s;
+}
+.wbox_img2:hover {
+  background-size: 110% 110%;
+}
+.wbox_img3 {
+  background-image: url(../image/a3.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  border-radius: 10px 10px 10px 10px;
+  /* 배경 사이즈 100 -> 110 0.3초 동안 바뀜 */
+  transition: all 0.3s;
+}
+.wbox_img3:hover {
+  background-size: 110% 110%;
+}
+.wbox_img4 {
+  background-image: url(../image/a4.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  border-radius: 10px 10px 10px 10px;
+  /* 배경 사이즈 100 -> 110 0.3초 동안 바뀜 */
+  transition: all 0.3s;
+}
+.wbox_img4:hover {
+  background-size: 110% 110%;
+  .wbox .text1 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* 👈 3줄 */
+    overflow: hidden;
+  }
+}
+.h4 {
+  padding-top: 7px;
+  font-size: x-small;
+  columns: #777;
+}
+
+.text1 {
+  font-size: small;
+  color: #000;
+  :#333 ;
+}
+.t1 {
+  color: aqua;
+  font-size: smaller;
+}
+.t2 {
+  color: #333;
+  font-weight: bold;
+}
+.txt3 {
+  color: #333;
+}
+.tt1 {
+  color: aqua;
+  font-size: x-small;
+}
+.tt2 {
+  font-size: x-small;
+}
+.tt3 {
+  font-size: x-small;
+  color: #777;
+}
